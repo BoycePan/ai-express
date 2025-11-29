@@ -1,0 +1,101 @@
+# IDE配置文件
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node.js / 前端相关
+node_modules/
+dist/
+dist-ssr/
+*.local
+.cache/
+.temp/
+.tmp/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 前端构建输出
+coverage/
+.nyc_output/
+build/
+
+# Java / Maven 相关
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Maven相关
+.mvn/
+mvnw
+mvnw.cmd
+
+# 编译生成文件
+bin/
+out/
+generated/
+generated-sources/
+generated-test-sources/
+
+# 包文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.tar
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.orig
+*~
+
+# 测试相关
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 其他
+*.pid
+*.seed
+*.pid.lock
+.npm
+
