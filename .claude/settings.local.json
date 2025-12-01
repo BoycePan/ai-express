@@ -3,7 +3,12 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(pnpm install:*)",
-      "Bash(pnpm run build:*)"
+      "Bash(pnpm run build:*)",
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(pnpm add:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 30 pnpm run dev:*)"
     ],
     "deny": [],
     "ask": []

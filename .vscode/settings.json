@@ -1,4 +1,37 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic",
-    "editor.formatOnSave": true,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always", // 在保存时使用 eslint 格式化（包含 import 排序和移除未使用的导入）
+    "source.fixAll.stylelint": "explicit",
+    // 禁用 source.organizeImports，让 ESLint 统一处理 import 排序，避免与 ESLint 规则冲突
+    "source.organizeImports": "never"
+  },
+
+  // 默认格式化工具
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 为特定文件类型设置格式化工具
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ESLint 配置
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ]
 }

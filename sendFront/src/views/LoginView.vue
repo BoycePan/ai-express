@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { closeToast, showLoadingToast, showToast } from 'vant'
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/user'
 
 const router = useRouter()
